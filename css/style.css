@@ -3,6 +3,74 @@ nav .brand-logo {
   color: #444;
 }
 
+body {
+  
+  font-color: black;
+
+  -webkit-user-select: none !important;
+  -moz-user-select: -moz-none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  
+  }
+  
+    a {
+  
+       color: black;
+    }
+  
+  .card.horizontal {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+  
+    .social-icons {
+  
+    float: center;
+  
+    }
+
+    .social-icons a{
+  
+    color: black;
+    font-size: 2.5em;
+    margin: 4px;
+  
+    }
+
+    .btn-facebook:hover{
+  
+    color: #3b5998;
+  
+    }
+
+    .btn-github:hover{
+  
+    color: white;
+  
+    }
+
+    .btn-linkedin:hover{
+  
+    color: #007bb5;
+  
+    }
+  
+  .btn1:hover{
+  
+    color: white;
+  
+    }
+  
+  .email{
+  
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+  
+ }
+
 .btn {
   margin-bottom: 8px;
 }
